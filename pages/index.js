@@ -1,13 +1,5 @@
-function Home() {
-  return <h1>HEY</h1>;
+function status(request, response) {
+  response.status(200).json({ chave: "hey" });
 }
 
-function teste() {
-  console.log("Teste");
-}
-
-function teste() {
-  console.log("d");
-}
-
-export default Home;
+export default status;
